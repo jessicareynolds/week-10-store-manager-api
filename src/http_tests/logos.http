@@ -7,7 +7,10 @@ POST http://localhost:3001/logos
 Content-Type: application/json
 
 {
-  "name": "Tiger Woods"
+  "name": "RGB",
+  "color": ["purple"],
+  "size": "Medium",
+  "case": "Upper"
 }
 
 ### Test the PUT which should change a logo

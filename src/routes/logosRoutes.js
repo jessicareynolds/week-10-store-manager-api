@@ -12,7 +12,6 @@ router.post('/', async (apiRequest, apiResponse) => {
   apiResponse.send({
     message: 'New logo created.',
     allLogos: await getLogos(),
-    thanks: true
   });
 });
 
