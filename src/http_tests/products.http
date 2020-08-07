@@ -20,4 +20,6 @@ Content-Type: application/json
   "title": "Amazing UV Shirt"
 }
 
+### Test the DELETE
+DELETE http://localhost:3001/products/5f2c801407dd2d5bce6a689f
 
