@@ -4,5 +4,13 @@
 GET http://localhost:3001/stores
 
 ### Test creating a store
+POST http://localhost:3001/stores
+Content-Type: application/json
+
+{
+    "name": "Westerly Country Club",
+    "location": "Westerly, RI",
+    "SKU items": ["34543, 37654, 87987, 98456"]
+}
 
 ### Test the PUT which should change a store
