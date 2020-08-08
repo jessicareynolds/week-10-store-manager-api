@@ -14,3 +14,9 @@ Content-Type: application/json
 }
 
 ### Test the PUT which should change a store
+PUT http://localhost:3001/stores/
+Content-Type: application/json
+
+{
+    "SKU items": ["34543, 37954, 87987, 99000"]
+}
