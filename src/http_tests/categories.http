@@ -1,8 +1,29 @@
 ### Test the stores
 ### stores are the customers such as each golf course
 
-GET http://localhost:3001/stores
+GET http://localhost:3001/categories
 
 ### Test creating a store
 
+POST http://localhost:3001/categories
+Content-Type: application/json
+
+{
+  "name": "Menswear",
+  "item": "Top",
+  "style": "Short-sleeve Polo",
+  "size": "Large",
+  "color": ["Navy"],
+}
+
 ### Test the PUT which should change a store
+
+PUT http://localhost:3001/categories/
+Content-Type: application/json
+
+{
+  "name": "Womenswear"
+}
+
+
+### Test the DELETE
